@@ -13,7 +13,7 @@
 * [Appendix: Diagram Index](#appendix-diagram-index)
 * [Conclusion](#conclusion)
 
----
+
 
 ## Introduction
 
@@ -55,7 +55,7 @@ flowchart LR
   S --> CLD
 ```
 
----
+
 
 ## Core Concepts
 
@@ -86,7 +86,7 @@ flowchart LR
 * **Determinism where possible**: predictable outputs for auditing & safety.
 * **Observability**: structured logs, metrics, spans.
 
----
+
 
 ## Architecture Overview
 
@@ -138,7 +138,7 @@ flowchart LR
   S1 --> BLOB
 ```
 
----
+
 
 ## Protocol Components
 
@@ -284,7 +284,7 @@ sequenceDiagram
   end
 ```
 
----
+
 
 ## Implementation Examples
 
@@ -421,7 +421,7 @@ call("resources/read", { uri: "file:///safe/root/README.md" })
   .catch(console.error);
 ```
 
----
+
 
 ## Use Cases & Applications
 
@@ -469,7 +469,7 @@ sequenceDiagram
   H-->>AI: chart
 ```
 
----
+
 
 ## Security Considerations
 
@@ -536,7 +536,7 @@ sequenceDiagram
 }
 ```
 
----
+
 
 ## Best Practices
 
@@ -585,7 +585,7 @@ flowchart TD
 * **Tracing**: propagate a correlation or request ID across Host to Server to Adapter.
 * **Logging**: structured JSON with method, principal, resource, duration, and status.
 
----
+
 
 ## Appendix: Diagram Index
 
@@ -600,8 +600,8 @@ flowchart TD
 9. AuthN and AuthZ Path — Mermaid sequenceDiagram
 10. Server Request Handling (Activity) — Mermaid flowchart
 
----
 
-## Conclusion
+
+## Summary
 
 MCP provides a **secure, standardized, and extensible** foundation for AI-to-resource interactions. By separating concerns across **Client, Host, and Server**, and by enforcing **policy, observability, and least-privilege access**, MCP enables teams to safely unlock powerful AI workflows—from IDE assistants and analytics to enterprise integrations—without sacrificing control or trust.
